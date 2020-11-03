@@ -1,14 +1,14 @@
 import React from 'react';
-
+import './App.css';
+import navBar from './navBar';
 
 function App(){
     return(
 
-      <div>
-
+      <div className="app">
 
       {/* Nav elements and Self introduction section */}
-
+      <navBar/>
 
 
       {/* Technologies I know section  */}
